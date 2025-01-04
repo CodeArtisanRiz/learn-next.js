@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Greet } from "./components/greet";
 
 export default function Home() {
   return (
@@ -20,8 +21,9 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Hello World</li>
         </ol>
+        <Greet />
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
