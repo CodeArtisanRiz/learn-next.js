@@ -14,7 +14,7 @@ export const Nav = () => {
 
 
             <Link href="/products/1" className={pathname.startsWith("/products") ? "font-bold mr-4 " : "text-blue-500 mr-4"}>Products</Link>
-            <Link href="/blog" className="mr-4 text-blue-500">Blog</Link>
+            <Link href="/mock-users" className="mr-4 text-blue-500">Users</Link>
             
             {/* <Link href="/login" className="mr-4 text-blue-500">Login</Link>
             <Link href="/register" className="mr-4 text-blue-500">Register</Link> */}
